@@ -20,9 +20,9 @@ body
    .d{
     margin-bottom: 40px;
    }
-   .t{
+  .t {
     margin-bottom: 40px;
-   }
+  }
 
 @media (min-width: 768px) {
   .container {
@@ -91,7 +91,7 @@ img {
 .navbar-default {
     background: #202020;
     border: none;
-    border-left: 6px solid #d54ab6;
+    border-left: 6px solid #202020;
     padding-right: 40px;
     margin: 0 !important;
     position: relative;
@@ -141,7 +141,7 @@ img {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../Images/homeimg.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -150,6 +150,8 @@ img {
 }
 #home h1,
 #home h3 {
+  color: #00bcd4;
+  align-items: left;
   line-height: 30px;
   font-size: 40px;
 }
@@ -193,11 +195,12 @@ img {
 
 /* about section */
 #about-header {
-  background: url('../images/about-header.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url('../Images/about-us.png') no-repeat ;
+  background-size: contain;
+  background-position: bottom;
   min-height: 500px;
-  padding-top: 160px;
+  padding-top: 300px;
+  padding-left: 500px;
 }
 #about {
   padding-top: 60px;
@@ -223,12 +226,15 @@ img {
   padding-top: 60px;
   padding-bottom: 80px;
 }
-#team h2 {
+#team h1 {
   padding-bottom: 30px;
   text-align: center;
 }
 #team h3 {
   padding-bottom: 10px;
+}
+#team p {
+  font-size: 20px;
 }
 #team .team-wrapper {
   border: 2px solid #303030;
