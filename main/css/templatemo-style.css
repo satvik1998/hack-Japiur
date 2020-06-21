@@ -197,11 +197,10 @@ img {
 #about-header {
   background: url('../Images/about-us.png') no-repeat ;
   background-size: contain;
-  background-position: bottom;
-  min-height: 500px;
-  padding-top: 300px;
-  padding-left: 500px;
+  background-position: center;
+  min-height: 500px; 
 }
+
 #about {
   padding-top: 60px;
 }
